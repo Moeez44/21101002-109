@@ -1,0 +1,101 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    background-color:rgb(189, 195, 154);
+    
+}
+.container{
+    display: flex;
+    border: 5px solid rgb(134, 127, 127);
+    box-shadow: 10px 10px 10px rgb(138, 137, 137),
+    -10px 10px 10px rgb(138, 137, 137),
+    10px -10px 10px rgb(138, 137, 137),
+    -10px -10px 10px rgb(138, 137,137);
+    background-color: white;
+}
+
+/* LEFT SIDE CSS*/
+
+.imageportion{
+    width: 250px;
+}
+.imagepart{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.data{
+    margin-top: 15px;
+    padding: 18px;
+}
+
+#img{
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+   position: relative;
+   left: 35px;
+   
+}
+
+.otherimages{
+    width: 20px;
+    height: 20px;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.skil{
+    background-color: rgb(117, 112, 112);
+    color: white;
+    margin:10px ;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.fontchange{
+    font-style:italic;
+    color: rgb(72, 71, 70);
+    font-size: 15px;
+}
+
+.bor{
+    border: 3px solid rgb(132, 124, 124);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+/*  RIGHT PORTION CSS*/
+
+
+.title{
+    background-color: rgb(72, 68, 68);
+    color: white;
+    margin-top: 15px;
+    padding: 18px;
+}
+.fontsize{
+    font-size: 18px;
+}
+
+
+
+
+
+
